@@ -23,9 +23,11 @@ If you've ever applied for a credit card or loan, you know that financial firms 
   * Exposure at Default (EAD): is the ratio of the exposure against any recovery from the loss.
   * Loss Given Default (LGD): is the ratio of the exposure against any recovery from the loss.
 
-**Formula for expected loss:**
+```
+Formula for expected loss:
 
-**Expected loss= PD * EAD * LGD**
+Expected loss= PD * EAD * LGD
+```
 
 
 
