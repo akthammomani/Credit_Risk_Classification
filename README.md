@@ -8,11 +8,25 @@
 
 If you've ever applied for a credit card or loan, you know that financial firms process your information before making a decision. This is because giving you a loan can have a serious financial impact on their business. But how do they make a decision? In this porject+, we will wrangle and prepare credit application data. After that, we will apply machine learning and business rules to reduce risk and ensure profitability. we will use two data sets that emulate real credit applications while focusing on business value.
 
-So, what exactly is credit risk? 
+**So, what exactly is credit risk?** 
 
-**Credit risk** is the risk that someone who has borrowed money will not repay it all. Think of this risk as the difference between lending money to a person and purchasing a government bond. With government bonds, it's almost guaranteed to be paid back, but not when lending money to people. 
+* The possibility that someone who has borrowed money will not repay it all
+* Calculated risk di(erence between lending someone money and a government bond
+* When someone fails to repay a loan, it is said to be in default
+* The likelihood that someone will default on a loan is the probability of default (PD)
 
-A loan is in default when the lending agency is reasonably certain the loan will not be repaid. We will use machine learning models to determine this.
+**Expected loss**
+
+* The dollar amount the firm loses as a result of loan default
+* Three primary components:
+  * Probability of Default (PD): is the likelihood someone will default on a loan.
+  * Exposure at Default (EAD): is the ratio of the exposure against any recovery from the loss.
+  * Loss Given Default (LGD): is the ratio of the exposure against any recovery from the loss.
+
+**Formula for expected loss:**
+
+**Expected loss** $= PD * EAD * LGD$
+
 
 
 
