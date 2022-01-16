@@ -25,7 +25,7 @@ If you've ever applied for a credit card or loan, you know that financial firms 
 
 **Formula for expected loss:**
 
-**Expected loss** $= PD * EAD * LGD$
+**Expected loss= PD * EAD * LGD**
 
 
 
