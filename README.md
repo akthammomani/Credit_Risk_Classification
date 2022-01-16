@@ -29,7 +29,14 @@ Formula for expected loss:
 Expected loss= PD * EAD * LGD
 ```
 
+## Dataset 
 
+For modeling probability of default we generally have two primary types of data available:
+
+* Application data: which is data that is directly tied to the loan application like loan grade. 
+* Behavioral data: which describes the recipient of the loan, such as employment length.
+
+The data we will use for our predictions of **probability of default** includes a mix. This is important because application data alone is not as good as application and behavioral data together. Included are two columns which emulate data that can be purchased from credit bureaus. Acquiring external data is a common practice in most organizations. These are the columns available in the data set. Some examples are: personal income, the loan amount's percentage of the person's income, and credit history length. Consider the percentage of income. This could affect loan status if the loan amount is more than their income, because they may not be able to afford payments.
 
 
 
